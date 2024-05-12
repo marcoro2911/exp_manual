@@ -3,8 +3,8 @@ This user manual explains how to use the Python implementations of five sorting 
 ## Getting Started
 ### Prerequisites
 Ensure that Python and Git are installed on your system:
-- Python (tested with version 3.9.6): Download from ``` python.org ```
-- Git: Download from ```git-scm.com```
+- Python (tested with version 3.12.3): [python.org](https://www.python.org/downloads/)
+- Git: Download from [git-scm.com](https://git-scm.com/downloads)
 ### Installation
 1. Clone the repository:
 ```bash
