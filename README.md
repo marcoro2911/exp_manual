@@ -21,9 +21,9 @@ Each algorithm is implemented in a separate Python script. To run an algorithm, 
 
 For Quick sort:
 ```bash
-python quick_sort.py
+python quickSort.py
 ```
-Replace 'quick_sort.py' with the corresponding file name for other sorting algorithms that you want to use('insertion_sort.py', 'selection_sort.py', 'bubble_sort.py', 'merge_sort.py').
+Replace 'quick_sort.py' with the corresponding file name for other sorting algorithms that you want to use('insertionSort.py', 'selectionSort.py', 'bubbleSort.py', 'mergeSort.py').
 ### Input
 The sorting algorithms require an array of integers as input. Please enter the numbers in any sequence, ensuring they are separated by spaces, as demonstrated in the example below:
 
