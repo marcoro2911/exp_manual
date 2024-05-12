@@ -1,8 +1,10 @@
-# User Manual
-This user manual provides detailed instructions on how to use the Python implementations of five sorting algorithms: Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, and Merge Sort. These implementations are designed to help users understand the algorithms' behavior through practical experience.
+# Sorting Algorithms User Manual
+This user manual explains how to use the Python implementations of five sorting algorithms: Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, and Merge Sort. These implementations are ideal for educational purposes, helping users to visualize and understand the behavior of each algorithm through direct interaction.
 ## Getting Started
 ### Prerequisites
-Ensure you have Python and Git installed on your machine. The code has been tested with Python 3.9.6. You can download Python from [python.org](https://www.python.org/downloads/) and Git from [git-scm.com](https://git-scm.com/downloads)
+Ensure that Python and Git are installed on your system:
+- Python (tested with version 3.9.6): Download from ``` python.org ```
+- Git: Download from ```git-scm.com```
 ### Installation
 1. Clone the repository:
 ```bash
@@ -11,29 +13,29 @@ git clone https://github.com/marcoro2911/exp_manual.git
 2. Navigate to the project directory:
 ```bash
 cd exp_manual
-cd sorting-algorithms
+cd sorting_alg
 ```
-## Using the Sorting Implementations
+## Usage instructions 
 ### Running the Algorithms
 Each algorithm is implemented in a separate Python script. To run an algorithm, use the following command in your terminal:
 
-For Bubble Sort:
+For Quick sort:
 ```bash
-python bubble_sort.py
+python quick_sort.py
 ```
-Replace 'bubble_sort.py' with the corresponding file name for other sorting algorithms ('insertion_sort.py', 'selection_sort.py', 'quick_sort.py', 'merge_sort.py').
-### Input Data
-The sorting algorithms expect an input array of integers. Type as many numbers as you want in any order, with a space between them, like in the example below:
+Replace 'quick_sort.py' with the corresponding file name for other sorting algorithms that you want to use('insertion_sort.py', 'selection_sort.py', 'bubble_sort.py', 'merge_sort.py').
+### Input
+The sorting algorithms require an array of integers as input. Please enter the numbers in any sequence, ensuring they are separated by spaces, as demonstrated in the example below:
 
 ```bash
-Enter a list of numbers separated by space: 5 2 9 1 5 6
+Enter a list of numbers separated by space: 12 342 534 25 3 4 23 99 11 900
 ```
 ### Output
-The output will display the original unsorted array followed by the sorted array. An output example will look like this:
+The output will display the initial unsorted array followed by the sorted array. It will look like this:
 
 ```c
-Original array: [5, 2, 9, 1, 5, 6]
-Sorted array: [1, 2, 5, 5, 6, 9]
+Initial array: [12, 342, 534, 25, 3, 4, 23, 99, 11, 900]
+Sorted array: [3, 4, 11, 12, 23, 25, 99, 342, 534, 900]
 ```
 ## Contributing
-Feel free to fork the repository and submit pull requests. You can also open an issue if you find any bugs or have suggestions for additional features.
+Contributions are welcome! You can contribute by forking the repository, making your changes, and submitting a pull request. If you encounter any issues or have suggestions for improvement, please create an issue on the GitHub repository.
